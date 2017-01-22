@@ -1,0 +1,41 @@
+{
+  "name": "node-notifications",
+  "version": "1.0.0",
+  "description": "Send notifications via different channels",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc/js"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-yuidoc": "^1.0.0",
+    "grunt-eslint": "^19.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.2",
+    "sinon": "^1.17.7"
+  },
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "keywords": [
+    "node",
+    "notifications"
+  ],
+  "author": "Maykol Purica <puricamaykol@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mod-loader": "0.0.1",
+    "node-rest-client": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}

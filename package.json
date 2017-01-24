@@ -1,5 +1,5 @@
 {
-  "name": "node-notifications",
+  "name": "node-notifyer",
   "version": "1.0.0",
   "description": "Send notifications via different channels",
   "main": "index.js",

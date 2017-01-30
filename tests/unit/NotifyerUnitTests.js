@@ -39,22 +39,35 @@ var notifyer = require("../../lib/Notifyer.js")
 				"name": "Invoice notification",
 				"channels":[
 					{
-						"pusher": "email", "payload": {},
-						"sucketIo": "email", "payload": {},
-						"genericChannelName": "email", "payload": {},
+						"channelName": "pusher", "payload": {},
+					},
+					{
+						"channelName": "sucketIo", "payload": {},
+					},
+					{	
+						"channelName": "genericChannelName", "payload": {},
 					}
 				]
 			};
+
 			var Notifyer = new notifyer(notificacionDummy)
 					Notifyer.send(function(err, res){
-						expect(res).to.be.an('array');
-						expect(res).to.have.property('pusher');
+					expect(res).to.be.an('array');
+					for (var i = notificacionDummy.channels.length - 1; i >= 0; i--) {
+						//notificacionDummy[i]
+						//	console.log(notificacionDummy.channels[i].channelName, "nombre del canal"+i+"'\n'");
+						expect(res).to.have.property(notificacionDummy.channels[i].channelName);
+						expect(res[notificacionDummy.channels[i].channelName]).to.be.an("object");
+					}
+						
+						/*expect(res).to.have.property('pusher');
 						expect(res.pusher).to.be.an("object");
+						expect(res.pusher).to.have.an("object");
 						expect(res).to.have.property('sucketIo');
 						expect(res.sucketIo).to.be.an("object");
 						expect(res).to.have.property('genericChannelName');
-						expect(res.genericChannelName).to.be.an("object");
-						donde();
+						expect(res.genericChannelName).to.be.an("object");*/
+						done();
 					});
 
 		});

@@ -224,43 +224,26 @@
 	"buffers":
 	[
 		{
-			"file": "tests/acceptance/NotifyerAcceptanceTests.js",
+			"file": "/Z/nodetdd/tests/part1/cart-summary-test.js",
 			"settings":
 			{
-				"buffer_size": 35,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tests/unit/NotifyerUnitTests.js",
-			"settings":
-			{
-				"buffer_size": 1541,
+				"buffer_size": 1728,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "tests/test-server/server.js",
+			"file": "/Z/nodetdd/src/part1/cart-summary.js",
 			"settings":
 			{
-				"buffer_size": 991,
-				"line_ending": "Windows",
-				"name": "\"use strict\";"
+				"buffer_size": 463,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "README.md",
+			"file": "/Z/nodetdd/tests/part2/tax-test.js",
 			"settings":
 			{
-				"buffer_size": 244,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 1034,
+				"buffer_size": 1431,
 				"line_ending": "Unix"
 			}
 		}
@@ -349,14 +332,26 @@
 	},
 	"expanded_folders":
 	[
-		"/Z/node-notifyer",
 		"/Z/node-notifyer/tests",
 		"/Z/node-notifyer/tests/acceptance",
 		"/Z/node-notifyer/tests/test-server",
-		"/Z/node-notifyer/tests/unit"
+		"/Z/node-notifyer/tests/unit",
+		"/Z/nodetdd",
+		"/Z/nodetdd/src",
+		"/Z/nodetdd/src/part1",
+		"/Z/nodetdd/tests",
+		"/Z/nodetdd/tests/part1",
+		"/Z/nodetdd/tests/part2",
+		"/Z/nodetdd/tests/tutsplus"
 	],
 	"file_history":
 	[
+		"/Z/nodetdd/tests/tutsplus/tagsSpec.js",
+		"/Z/node-notifyer/tests/unit/NotifyerUnitTests.js",
+		"/Z/node-notifyer/tests/acceptance/NotifyerAcceptanceTests.js",
+		"/Z/node-notifyer/tests/test-server/server.js",
+		"/Z/node-notifyer/README.md",
+		"/Z/node-notifyer/Gruntfile.js",
 		"/C/Users/mpurica/Desktop/credenciales patrullaje",
 		"/Z/api_patrullaje/restApi/src/utils/formats/SMSMessage.js",
 		"/Z/api_patrullaje/restApi/package.json",
@@ -478,13 +473,7 @@
 		"/C/Users/mpurica/Desktop/Vehiculos.js",
 		"/C/Users/mpurica/Desktop/ResumenOperativoQueryViejoSinFechasNoReportadas.txt",
 		"/C/Users/mpurica/Desktop/QueryENModeloResumenOperativoSinRegistrosNoReportados.txt",
-		"/C/Users/mpurica/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
-		"/Z/gtrapi_node/src/controllers/seguimiento/Flotas.js",
-		"/C/Users/mpurica/AppData/Roaming/Sublime Text 2/Packages/ESLint/ESLint.sublime-settings",
-		"/Z/gtrapi_node/src/services/JasperClient/src/js/JasperClient.js",
-		"/C/Users/mpurica/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
-		"/Z/gtrapi_node/src/services/JasperClient/src/js/RestClient/RestClient.js",
-		"/Z/gtrapi_node/src/services/JasperClient/package.json"
+		"/C/Users/mpurica/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc"
 	],
 	"find":
 	{
@@ -702,39 +691,70 @@
 			[
 				{
 					"buffer": 0,
-					"file": "tests/acceptance/NotifyerAcceptanceTests.js",
+					"file": "/Z/nodetdd/tests/part1/cart-summary-test.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 35,
+						"buffer_size": 1728,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35,
-								35
+								1520,
+								1529
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Z/nodetdd/src/part1/cart-summary.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "tests/unit/NotifyerUnitTests.js",
+					"buffer": 2,
+					"file": "/Z/nodetdd/tests/part2/tax-test.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1541,
+						"buffer_size": 1431,
 						"regions":
 						{
 						},
@@ -754,96 +774,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "tests/test-server/server.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 991,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								403,
-								368
-							]
-						],
-						"settings":
-						{
-							"auto_name": "\"use strict\";",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 244,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								244,
-								244
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "Gruntfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1034,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								885,
-								905
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]

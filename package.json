@@ -31,6 +31,7 @@
   "author": "Maykol Purica <puricamaykol@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.1.4",
     "mod-loader": "0.0.1",
     "node-rest-client": "^2.0.1"
   },
